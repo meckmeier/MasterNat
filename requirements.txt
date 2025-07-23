@@ -3,3 +3,5 @@ nympy
 streamlit
 folium
 streamlit_folium
+geopy
+geopy.geocoders

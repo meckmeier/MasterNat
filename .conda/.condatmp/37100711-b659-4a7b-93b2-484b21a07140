@@ -1,0 +1,13 @@
+prefix=c:/MaryPrograms/MasterNat/MasterNat/.conda/Library
+exec_prefix=c:/MaryPrograms/MasterNat/MasterNat/.conda/Library
+libdir=c:/MaryPrograms/MasterNat/MasterNat/.conda/Library/lib
+sharedlibdir=c:/MaryPrograms/MasterNat/MasterNat/.conda/Library/lib
+includedir=c:/MaryPrograms/MasterNat/MasterNat/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
